@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "test-alert-001",
+      "geometry": null,
+      "properties": {
+        "event": "Flood Watch",
+        "headline": "Flood Watch remains in effect through Sunday",
+        "areaDesc": "All Islands of American Samoa",
+        "severity": "Moderate",
+        "urgency": "Future",
+        "certainty": "Possible",
+        "description": "Flash flooding caused by heavy rain is possible.",
+        "instruction": "Monitor later forecasts and be prepared to take action."
+      }
+    }
+  ]
+}
