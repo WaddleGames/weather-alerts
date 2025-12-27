@@ -1,19 +1,46 @@
 {
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "id": "test-alert-001",
+      "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
       "geometry": null,
       "properties": {
-        "event": "Flood Watch",
-        "headline": "Flood Watch remains in effect through Sunday",
-        "areaDesc": "All Islands of American Samoa",
-        "severity": "Moderate",
-        "urgency": "Future",
-        "certainty": "Possible",
-        "description": "Flash flooding caused by heavy rain is possible.",
-        "instruction": "Monitor later forecasts and be prepared to take action."
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+        "event": "Tornado Warning",
+        "headline": "Tornado Warning until 7:30 PM CDT for Northwestern Jackson & Central Madison Counties",
+        "description": "At 6:44 PM CDT, a confirmed large and extremely dangerous tornado was located over University Of Alabama In Huntsville, moving east at 30 mph.\n\nHAZARD: Damaging tornado.\nSOURCE: Emergency management confirmed tornado.\nIMPACT: Life-threatening situation. Flying debris may be deadly to those caught without shelter. Mobile homes will be destroyed. Considerable damage to homes, businesses, and vehicles is likely and complete destruction is possible.\n\nOther locations impacted include: Maysville, Princeton, Estillfork, Pleasant Groves, Trenton, Garth, Ryland, Hollytree, Brownsboro, and Larkin.",
+        "instruction": "To repeat, a large, extremely dangerous and potentially deadly tornado is on the ground. TAKE COVER NOW! Move to a basement or interior room on the lowest floor of a sturdy building. Avoid windows. If outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris.",
+        "areaDesc": "Northwestern Jackson County, Central Madison County, Alabama",
+        "severity": "Extreme",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "category": "Met",
+        "response": "Shelter",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2025-05-20T18:44:00-05:00",
+        "effective": "2025-05-20T18:44:00-05:00",
+        "expires": "2025-05-20T19:30:00-05:00",
+        "senderName": "NWS Huntsville AL",
+        "geocode": {
+          "UGC": ["ALC071","ALC089"]
+        },
+        "parameters": {
+          "VTEC": ["/O.NEW.KHUN.TO.W.0044.250520T2344Z-250521T0030Z/"],
+          "Hazard": ["Tornado"],
+          "TornadoDamageThreat": ["Considerable"],
+          "MaxHailSize": ["2.00 IN"]
+        }
       }
     }
   ]
