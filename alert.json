@@ -16,10 +16,10 @@
       "properties": {
         "@type": "wx:Alert",
         "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
-        "event": "Tornado Warning",
+        "event": "Tornado Warning (PDS)",
         "headline": "Tornado Warning until 7:30 PM CDT for Northwestern Jackson & Central Madison Counties",
-        "description": "At 6:44 PM CDT, a confirmed large and extremely dangerous tornado was located over University Of Alabama In Huntsville, moving east at 30 mph.\n\nHAZARD: Damaging tornado.\nSOURCE: Emergency management confirmed tornado.\nIMPACT: Life-threatening situation. Flying debris may be deadly to those caught without shelter. Mobile homes will be destroyed. Considerable damage to homes, businesses, and vehicles is likely and complete destruction is possible.\n\nOther locations impacted include: Maysville, Princeton, Estillfork, Pleasant Groves, Trenton, Garth, Ryland, Hollytree, Brownsboro, and Larkin.",
-        "instruction": "To repeat, a large, extremely dangerous and potentially deadly tornado is on the ground. TAKE COVER NOW! Move to a basement or interior room on the lowest floor of a sturdy building. Avoid windows. If outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris.",
+        "description": "The National Weather Service in Huntsville Alabama has issued a Tornado Warning for Northwestern Jackson County in northeastern Alabama and Central Madison County in north central Alabama until 7:30 PM CDT.\n\nAt 6:44 PM CDT, a confirmed large and extremely dangerous tornado was located over University Of Alabama In Huntsville, or near Huntsville, moving east at 30 mph. THIS IS A PARTICULARLY DANGEROUS SITUATION. TAKE COVER NOW!\n\nHAZARD: Damaging tornado.\nSOURCE: Emergency management confirmed tornado.\nIMPACT: You are in a life-threatening situation. Flying debris may be deadly to those caught without shelter. Mobile homes will be destroyed. Considerable damage to homes, businesses, and vehicles is likely and complete destruction is possible.\n\nThe tornado will be near Alabama A And M University, Moores Mill, and Huntsville around 6:50 PM CDT. Other locations impacted by this tornadic thunderstorm include Maysville, Princeton, Estillfork, Pleasant Groves, Trenton, Garth, Ryland, Hollytree, Brownsboro, and Larkin.",
+        "instruction": "To repeat, a large, extremely dangerous and potentially deadly tornado is on the ground. To protect your life, TAKE COVER NOW! Move to a basement or an interior room on the lowest floor of a sturdy building. Avoid windows. If you are outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris.",
         "areaDesc": "Northwestern Jackson County, Central Madison County, Alabama",
         "severity": "Extreme",
         "urgency": "Immediate",
@@ -37,9 +37,11 @@
         },
         "parameters": {
           "VTEC": ["/O.NEW.KHUN.TO.W.0044.250520T2344Z-250521T0030Z/"],
+          "PDS": true,
           "Hazard": ["Tornado"],
           "TornadoDamageThreat": ["Considerable"],
-          "MaxHailSize": ["2.00 IN"]
+          "MaxHailSize": ["2.00 IN"],
+          "LATLON": ["3465 8668","3482 8674","3499 8617","3473 8609"]
         }
       }
     }
