@@ -16,7 +16,7 @@
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "",
+        "id": "test",
         "event": "Shelter In Place Warning",
         "headline": "Shelter In Place Warning for Northern Cook County and Central Cook County.",
         "description": "The following message is transmitted at the request of the Chicago Police. A dog named Odie has escaped from dog jail and is currently on the run. He is possibly armed and dangerous and should be avoided at all costs.",
@@ -29,9 +29,9 @@
         "response": "Shelter",
         "status": "Actual",
         "messageType": "Alert",
-        "sent": "",
-        "effective": "",
-        "expires": "",
+        "sent": "2025-05-20T23:44:00Z",
+        "effective": "2025-05-20T23:44:00Z",
+        "expires": "2025-05-21T00:30:00Z",
         "senderName": "NWS Chicago IL",
         "geocode": {
           "UGC": ["ALC071","ALC089"]
