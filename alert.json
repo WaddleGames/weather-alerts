@@ -10,17 +10,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+      "id": "",
+      "@id": "",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+        "id": "",
         "event": "Shelter In Place Warning",
         "headline": "Shelter In Place Warning for Northern Cook County and Central Cook County.",
-        "description": "The following message is transmitted at the request of the Illinois emergency management police. A convict has escaped from prison at 2000 North Western Avenue in Chicago IL. The convict is a white male, 150 pounds, tall, and is wearing a white shirt and blue pants and shoes. He may be armed and dangerous. If you see the convict, call 911 immediately.",
-        "instruction": "Custom Alert made by Finn",
+        "description": "The following message is transmitted at the request of the Chicago Police. A dog named Odie has escaped from dog jail and is currently on the run. He is possibly armed and dangerous and should be avoided at all costs.",
+        "instruction": "This is an immediate shelter in place order for all of northern cook and central cook county. If you live in Southern Cook County, stay on high alert as well for possible other warnings, though none are expected at this time. If you see Odie, call 911 immediately and report your exact location.",
         "areaDesc": "Northern Cook County, Central Cook County.",
         "severity": "Extreme",
         "urgency": "Immediate",
@@ -29,20 +29,14 @@
         "response": "Shelter",
         "status": "Actual",
         "messageType": "Alert",
-        "sent": "2025-05-20T23:44:00Z",
-        "effective": "2025-05-20T23:44:00Z",
-        "expires": "2025-05-21T00:30:00Z",
+        "sent": "",
+        "effective": "",
+        "expires": "",
         "senderName": "NWS Chicago IL",
         "geocode": {
           "UGC": ["ALC071","ALC089"]
         },
         "parameters": {
-          "VTEC": ["/O.NEW.KHUN.TO.W.0044.250520T2344Z-250521T0030Z/"],
-          "PDS": true,
-          "TornadoDamageThreat": ["Considerable"],
-          "MaxHailSize": ["2.00 IN"],
-          "LATLON": ["3465 8668","3482 8674","3499 8617","3473 8609"],
-          "TIME_MOT_LOC": ["2344Z 254DEG 26KT 3476 8663"]
         }
       }
     }
