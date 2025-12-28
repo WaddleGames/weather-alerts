@@ -16,7 +16,7 @@
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+        "id": "",
         "event": "Waylon Warning",
         "headline": "Waylon Warning for Northern Cook County until 10PM CST.",
         "description": "The following message is transmitted at the request of the Chicago Police. Waylon is currently on the loose. SHELTER IN PLACE IMMEDIATELY AND TAKE COVER NOW. This is a PARTICULARLY DANGEROUS SITUATION. Waylon may kill you if you do not take cover now and shelter in place. This shelter in place order will be in effect until 10PM Central Standard Time.",
