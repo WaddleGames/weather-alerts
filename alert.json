@@ -10,34 +10,39 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "urn:oid:2.49.0.1.840.0.FLOODWATCHPAGOPAGO122025",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.FLOODWATCHPAGOPAGO122025",
+      "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.FLOODWATCHPAGOPAGO122025",
-        "event": "Flood Watch",
-        "headline": "Flood Watch remains in effect through Sunday for All Islands",
-        "description": "...FLOOD WATCH REMAINS IN EFFECT THROUGH SUNDAY...\n\nWHAT...Flash flooding caused by heavy rain is possible\n\nWHERE...All Islands\n\nWHEN...Through Sunday\n\nIMPACTS...Flash flooding is possible due to heavy showers across the islands, in low lying and vulnerable areas. Strong runoffs and pooling on the roadways is also possible. Low visibility due to heavy showers will also impact drivers on roadways.\n\nPRECAUTIONARY/PREPAREDNESS ACTIONS...\n\nA flood watch means that conditions may develop that lead to flash flooding. You should monitor later forecasts and be prepared to take action should flash flood warnings be issued.\n\n&&\n\nNofo Va`ava`aia mo Tafega ma Lologa\nOfisa o le Tau Pago Pago AS\n1255 Vaveao Aso Toonai Tesema 27 2025\n\n...O LOO FA`AAUAU LE NOFO VA`AVA`AIA MO TAFEGA MA LOLOGA SE`IA OO I LE ASO SA...\n\nMAFUAAGA...O lologa ma tafega e mafua mai i timuga mamafa\n\nNOFOAGA...motu uma a Amerika Samoa\n\nTAIMI...Se`ia oo i le Aso Sa\n\nAAFIAGA...O timuga mamafa e ono fa`atupula`ia ai lologa ma tafega i luga o le atunu`u, ae maise nofoaga maualalo ma nofoaga a`afia gofie. O tafega ma vaivai i luga o auala tele e ono tutupu mai. E fa`aitiitia fo`i le va`ai mamao ona a timuga mamafa ma e a`afia ai ave ta`avale i luga o auala tele.\n\nFAUTUAGA/TAPENAGA...\n\nO le uiga o le nofo vaavaaia mo tafega ma lologa, o le ono faatupula`ia lea o le tetele o timuga, tafega ma lologa, fa`apea sologa mai i mauga po o eleelee, ona o uiga louloua o le tau. E tatau ona tapena ma faalogologo i le leitio mo tala o le tau, ae maise pe a iai se faailo mo se lapataiga mo tafega ma lologa.\n\n$$",
-        "instruction": "Monitor forecasts and be prepared to take action should flash flood warnings be issued.",
-        "areaDesc": "Tutuila, Aunuu, Manua, Swains Island, Rose Atoll",
-        "severity": "Moderate",
-        "urgency": "Expected",
-        "certainty": "Possible",
+        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+        "event": "Flash Flood Warning",
+        "headline": "Flash Flood Warning until 9:30 PM CST for Northern Cook County and Central Cook County.",
+        "description": "The National Weather Service in Chicago has issued a\n\n* Flash Flood Warning for...\n  Northern Cook County in northeastern Illinois...\n  Central Cook County in northeastern Illinois...\n\n* Until 930 PM CST.\n\n* At 614 PM CST, Doppler radar indicated thunderstorms producing heavy rain across the warned area.\n\n  Between 1 and 3 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area.\n\n  HAZARD...Flash Flooding.\n\n  SOURCE...Radar and automated gauges..\n\n  IMPACT...Flash flooding of small creaks and streams, urban\n           areas, highways, streets, and underpasses as well as\n           other poor drainage and low-lying areas.\n           Some locations that will experience flash flooding include...\n           Chicago, Oak Park, Cicero, Skokie, and Evanston.\n\n* \n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\nBe aware of your surroundings and do not drive on flooded roads.",
+        "instruction": "Custom Alert made by Finn",
+        "areaDesc": "Northern Cook County, Central Cook County.",
+        "severity": "Extreme",
+        "urgency": "Immediate",
+        "certainty": "Observed",
         "category": "Met",
-        "response": "Prepare",
+        "response": "Shelter",
         "status": "Actual",
         "messageType": "Alert",
-        "sent": "2025-12-27T12:55:00Z",
-        "effective": "2025-12-27T12:55:00Z",
-        "expires": "2025-12-28T00:00:00Z",
-        "senderName": "NWS Pago Pago AS",
+        "sent": "2025-05-20T23:44:00Z",
+        "effective": "2025-05-20T23:44:00Z",
+        "expires": "2025-05-21T00:30:00Z",
+        "senderName": "NWS Chicago IL",
         "geocode": {
-          "UGC": ["ASZ001","ASZ002","ASZ003","ASZ004"]
+          "UGC": ["ALC071","ALC089"]
         },
         "parameters": {
-          "VTEC": ["/O.NEW.PGPA.FA.A.0001.251227T1255Z-251228T0000Z/"]
+          "VTEC": ["/O.NEW.KHUN.TO.W.0044.250520T2344Z-250521T0030Z/"],
+          "PDS": true,
+          "TornadoDamageThreat": ["Considerable"],
+          "MaxHailSize": ["2.00 IN"],
+          "LATLON": ["3465 8668","3482 8674","3499 8617","3473 8609"],
+          "TIME_MOT_LOC": ["2344Z 254DEG 26KT 3476 8663"]
         }
       }
     }
