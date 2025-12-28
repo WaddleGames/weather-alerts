@@ -16,7 +16,7 @@
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "test",
+        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
         "event": "Shelter In Place Warning",
         "headline": "Shelter In Place Warning for Northern Cook County and Central Cook County.",
         "description": "The following message is transmitted at the request of the Chicago Police. A dog named Odie has escaped from dog jail and is currently on the run. He is possibly armed and dangerous and should be avoided at all costs.",
