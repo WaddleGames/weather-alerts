@@ -17,9 +17,9 @@
       "properties": {
         "@type": "wx:Alert",
         "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
-        "event": "Flash Flood Warning",
-        "headline": "Flash Flood Warning until 9:30 PM CST for Northern Cook County and Central Cook County.",
-        "description": "The National Weather Service in Chicago has issued a\n\n* Flash Flood Warning for...\n  Northern Cook County in northeastern Illinois...\n  Central Cook County in northeastern Illinois...\n\n* Until 930 PM CST.\n\n* At 614 PM CST, Doppler radar indicated thunderstorms producing heavy rain across the warned area.\n\n  Between 1 and 3 inches of rain have fallen. Additional rainfall amounts of 1 to 2 inches are possible in the warned area.\n\n  HAZARD...Flash Flooding.\n\n  SOURCE...Radar and automated gauges..\n\n  IMPACT...Flash flooding of small creaks and streams, urban\n           areas, highways, streets, and underpasses as well as\n           other poor drainage and low-lying areas.\n           Some locations that will experience flash flooding include...\n           Chicago, Oak Park, Cicero, Skokie, and Evanston.\n\n* \n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\nBe aware of your surroundings and do not drive on flooded roads.",
+        "event": "Shelter In Place Warning",
+        "headline": "Shelter In Place Warning for Northern Cook County and Central Cook County.",
+        "description": "The following message is transmitted at the request of the Illinois emergency management police. A convict has escaped from prison at 2000 North Western Avenue in Chicago IL. The convict is a white male, 150 pounds, tall, and is wearing a white shirt and blue pants and shoes. He may be armed and dangerous. If you see the convict, call 911 immediately.",
         "instruction": "Custom Alert made by Finn",
         "areaDesc": "Northern Cook County, Central Cook County.",
         "severity": "Extreme",
@@ -48,3 +48,4 @@
     }
   ]
 }
+
