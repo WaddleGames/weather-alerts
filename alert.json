@@ -10,23 +10,23 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
+      "id": "urn:oid:2.49.0.1.840.0.TORNADOWATCHCHICAGO052025",
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TORNADOWATCHCHICAGO052025",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.TORNADOHUNTSVILLE052025",
-        "event": "TEST OF CUSTOM ALERT",
-        "headline": "THIS IS A HEADLINE.",
-        "description": "THIS IS THE DESCRIPTION.",
-        "instruction": "THESE ARE THE INSTRUCTIONS.",
-        "areaDesc": "Northern Cook County",
-        "severity": "Extreme",
-        "urgency": "Immediate",
-        "certainty": "Observed",
+        "id": "urn:oid:2.49.0.1.840.0.TORNADOWATCHCHICAGO052025",
+        "event": "Tornado Watch",
+        "headline": "Tornado Watch until 7:00 PM CDT for Central Cook County",
+        "description": "* WHAT...Conditions are favorable for the development of tornadoes in and close to the watch area.\n\n* WHERE...Central Cook County.\n\n* WHEN...Until 7:00 PM CDT.\n\n* IMPACTS...Tornadoes can cause injury and property damage. Remain alert for warnings and have a plan to move to safe shelter.",
+        "instruction": "Review your tornado safety plan, stay tuned to local weather updates, and be prepared to take action if a warning is issued.",
+        "areaDesc": "Central Cook County, IL",
+        "severity": "Severe",
+        "urgency": "Expected",
+        "certainty": "Likely",
         "category": "Met",
-        "response": "Shelter",
+        "response": "Monitor",
         "status": "Actual",
         "messageType": "Alert",
         "sent": "2025-05-20T23:44:00Z",
@@ -34,12 +34,12 @@
         "expires": "2025-05-21T00:30:00Z",
         "senderName": "NWS Chicago IL",
         "geocode": {
-          "UGC": ["ALC071","ALC089"]
+          "UGC": ["ILC031"] 
         },
         "parameters": {
+          "VTEC": ["/O.NEW.KLOT.TO.A.0001.250520T2344Z-250521T0030Z/"]
         }
       }
     }
   ]
 }
-
