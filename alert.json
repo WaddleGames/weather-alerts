@@ -10,35 +10,34 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "urn:oid:2.49.0.1.840.0.SPSLOX010426",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.SPSLOX010426",
+      "id": "urn:oid:2.49.0.1.840.0.TESTSVWATCH",
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TESTSVWATCH",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.SPSLOX010426",
-        "event": "Special Weather Statement",
-        "headline": "A strong thunderstorm will impact South Central Ventura and Western Los Angeles Counties through 5:00 PM PST",
-        "description": "At 402 PM PST, Doppler radar was tracking lines of strong showers and possible thunderstorms approaching Point Mugu in southern Ventura County. Newbury Park, or near Thousand Oaks, moving northeast at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph. Cannot rule out a brief, weak tornado.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around unsecured objects.\n\nLocations possibly impacted include...\nWestern Malibu, Point Mugu State Park, Newbury Park, Westlake Village, and Kanan Dume Road through the Santa Monica Mountains.",
-        "instruction": "If outdoors, consider seeking shelter inside a building.",
-        "areaDesc": "South Central Ventura and Western Los Angeles Counties, CA",
-        "severity": "Moderate",
+        "id": "urn:oid:2.49.0.1.840.0.TESTSVWATCH",
+        "event": "Severe Thunderstorm Watch",
+        "headline": "Test",
+        "description": "Test",
+        "instruction": "Test",
+        "areaDesc": "Test Area",
+        "severity": "Severe",
         "urgency": "Expected",
-        "certainty": "Observed",
+        "certainty": "Likely",
         "category": "Met",
         "response": "Monitor",
         "status": "Actual",
         "messageType": "Alert",
-        "sent": "2026-01-04T20:07:00Z",
-        "effective": "2026-01-04T20:07:00Z",
-        "expires": "2026-01-04T21:00:00Z",
-        "senderName": "NWS Oxnard CA",
+        "sent": "2025-12-27T12:00:00Z",
+        "effective": "2025-12-27T12:00:00Z",
+        "expires": "2025-12-27T13:00:00Z",
+        "senderName": "NWS Test Office",
         "geocode": {
-          "UGC": ["CAZ354","CAZ355","CAZ362","CAZ369","CAZ371","CAZ374"]
+          "UGC": ["TST001"]
         },
         "parameters": {
-          "MaxHailSize": ["0.00 IN"],
-          "MaxWindGust": ["40 MPH"]
+          "VTEC": ["/O.NEW.TEST.SV.A.0001.251227T1200Z-251227T1300Z/"]
         }
       }
     }
