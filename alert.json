@@ -10,34 +10,40 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "urn:oid:2.49.0.1.840.0.TESTSVWATCH",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.TESTSVWATCH",
+      "id": "urn:oid:2.49.0.1.840.0.SVRTAE0103260001",
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.SVRTAE0103260001",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.TESTSVWATCH",
-        "event": "Severe Thunderstorm Watch",
-        "headline": "Severe Thunderstorm Watch",
-        "description": "Until 330 PM EST/230 PM CST/.",
-        "instruction": "At 245 PM EST/145 PM CST/, a thunderstorm was located near willowbrook.",
-        "areaDesc": "Test Area",
+        "id": "urn:oid:2.49.0.1.840.0.SVRTAE0103260001",
+        "event": "Severe Thunderstorm Warning",
+        "headline": "Severe Thunderstorm Warning until 3:30 PM EST for northeastern Houston and southwestern Early Counties",
+        "description": "The National Weather Service in Tallahassee has issued a\n\n* Severe Thunderstorm Warning for...\n  Northeastern Houston County in southeastern Alabama...\n  Southwestern Early County in southwestern Georgia...\n\n* Until 330 PM EST/230 PM CST/.\n\n* At 245 PM EST/145 PM CST/, a severe thunderstorm was located near Cottonwood, moving east at 30 mph.\n\n  HAZARD...Quarter size hail.\n\n  SOURCE...Radar indicated.\n\n  IMPACT...Damage to vehicles is expected.\n\n* Locations impacted include...\n  Dothan, Ashford, Cowarts, Centerville, Avon, Gordon, Jakin, Memphis, Saffold, Pansey, Howards Mill, Enon, Lovetown, Wilson Mill, Cuba, Killarney, Farley Nuclear Plant, Ardilla, Cedar Springs, and Hentown.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a building.",
+        "areaDesc": "Northeastern Houston County AL; Southwestern Early County GA",
         "severity": "Severe",
-        "urgency": "Expected",
-        "certainty": "Likely",
+        "urgency": "Immediate",
+        "certainty": "Observed",
         "category": "Met",
-        "response": "Monitor",
+        "response": "Shelter",
         "status": "Actual",
         "messageType": "Alert",
-        "sent": "2025-12-27T12:00:00Z",
-        "effective": "2025-12-27T12:00:00Z",
-        "expires": "2025-12-27T13:00:00Z",
-        "senderName": "NWS Test Office",
+        "sent": "2026-01-03T19:45:00Z",
+        "effective": "2026-01-03T19:45:00Z",
+        "expires": "2026-01-03T20:30:00Z",
+        "senderName": "NWS Tallahassee FL",
         "geocode": {
-          "UGC": ["TST001"]
+          "UGC": ["ALC069", "GAC099"]
         },
         "parameters": {
-          "VTEC": ["/O.NEW.TEST.SV.A.0001.251227T1200Z-251227T1300Z/"]
+          "VTEC": [
+            "/O.NEW.KTAE.SV.W.0001.260103T1945Z-260103T2030Z/"
+          ],
+          "HailThreat": ["RADAR INDICATED"],
+          "MaxHailSize": ["1.00 IN"],
+          "WindThreat": ["RADAR INDICATED"],
+          "MaxWindGust": ["<50 MPH"]
         }
       }
     }
