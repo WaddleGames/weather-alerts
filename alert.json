@@ -18,7 +18,7 @@
         "@type": "wx:Alert",
         "id": "urn:oid:2.49.0.1.840.0.TESTSVWATCH",
         "event": "Severe Thunderstorm Watch",
-        "headline": "Test",
+        "headline": "Severe Thunderstorm Watch",
         "description": "Test",
         "instruction": "Test",
         "areaDesc": "Test Area",
