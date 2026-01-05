@@ -41,3 +41,40 @@
         }
       }
     },
+    {
+      "id": "urn:oid:2.49.0.1.840.0.SVRCHICAGO052025",
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.SVRCHICAGO052025",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.SVRCHICAGO052025",
+        "event": "Severe Thunderstorm Warning",
+        "headline": "Severe Thunderstorm Warning until 8:00 PM CDT for Central Cook County — PARTICULARLY DANGEROUS SITUATION",
+        "description": "The National Weather Service in Chicago IL has issued a\n\n* Severe Thunderstorm Warning for...\n  Central Cook County.\n\n* Until 8:00 PM CDT.\n\n* At 7:15 PM CDT, a large and potentially dangerous severe thunderstorm was located near downtown Chicago, moving east at 25 mph.\n\n  THIS IS A PARTICULARLY DANGEROUS SITUATION. TAKE COVER NOW!\n\n  HAZARD...Damaging wind gusts up to 80 mph, very large hail up to 2 inches, and dangerous lightning.\n\n  SOURCE...Emergency management confirmed reports of wind damage.\n\n  IMPACT...You are in a life-threatening situation. Flying debris may cause injury. Mobile homes may be destroyed. Significant damage to homes, businesses, and vehicles is likely.\n\n* The storm will be near...\n  Oak Brook, Cicero, Berwyn, and surrounding areas around 7:30 PM CDT.\n\nPRECAUTIONARY/PREPAREDNESS ACTIONS...\n\nMove to a basement or an interior room on the lowest floor of a sturdy building. Avoid windows. If outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris.",
+        "instruction": "Seek shelter immediately. Move to a basement or interior room. Avoid windows and protect yourself from flying debris.",
+        "areaDesc": "Central Cook County, IL",
+        "severity": "Extreme",
+        "urgency": "Immediate",
+        "certainty": "Observed",
+        "category": "Met",
+        "response": "Shelter",
+        "status": "Actual",
+        "messageType": "Alert",
+        "sent": "2025-05-20T00:15:00Z",
+        "effective": "2025-05-20T00:15:00Z",
+        "expires": "2025-05-20T01:00:00Z",
+        "senderName": "NWS Chicago IL",
+        "geocode": {
+          "UGC": ["ILC031"]
+        },
+        "parameters": {
+          "VTEC": ["/O.NEW.KLOT.SV.W.0002.250520T0015Z-250520T0100Z/"],
+          "PDS": true,
+          "MaxHailSize": ["2 IN"],
+          "MaxWindGust": ["80 MPH"]
+        }
+      }
+    }
+  ]
+}
