@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b2c3d4e5f678901234567890abcdef12345678.001.1",
+      "id": "https://raw.githubusercontent.com/WaddleGames/weather-alerts/refs/heads/main/alertapi.json",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -17,7 +17,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a1b2c3d4e5f678901234567890abcdef12345678.001.1",
+        "@id": "https://raw.githubusercontent.com/WaddleGames/weather-alerts/refs/heads/main/alertapi.json",
         "@type": "wx:Alert",
         "id": "urn:oid:2.49.0.1.840.0.a1b2c3d4e5f678901234567890abcdef12345678.001.1",
         "areaDesc": "Wayne County, MI; Oakland County, MI",
