@@ -1,63 +1,89 @@
 {
-  "@context": [
-    "https://geojson.org/geojson-ld/geojson-context.jsonld",
-    {
-      "@version": "1.1",
-      "wx": "https://api.weather.gov/ontology#",
-      "@vocab": "https://api.weather.gov/ontology#"
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1234567890abcdef1234567890abcdef.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-83.30, 42.40],
+        [-83.00, 42.45],
+        [-82.90, 42.25],
+        [-83.04, 42.33],
+        [-83.30, 42.40]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1234567890abcdef1234567890abcdef.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.1234567890abcdef1234567890abcdef.001.1",
+    "areaDesc": "Wayne, MI",
+    "geocode": {
+      "SAME": [
+        "026163"
+      ],
+      "UGC": [
+        "MIC163"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/MIC163"
+    ],
+    "references": [],
+    "sent": "2026-02-11T19:15:00-05:00",
+    "effective": "2026-02-11T19:15:00-05:00",
+    "onset": "2026-02-11T19:15:00-05:00",
+    "expires": "2026-02-11T20:00:00-05:00",
+    "ends": "2026-02-11T20:00:00-05:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Observed",
+    "urgency": "Immediate",
+    "event": "Snow Squall Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Detroit/Pontiac MI",
+    "headline": "Snow Squall Warning issued February 11 at 7:15PM EST until February 11 at 8:00PM EST by NWS Detroit/Pontiac MI",
+    "description": "* WHAT...A dangerous snow squall capable of producing near whiteout conditions and wind gusts up to 45 mph.\n\n* WHERE...Portions of southeastern Michigan including Wayne County.\n\n* WHEN...Until 8:00 PM EST.\n\n* IMPACTS...Travel will become hazardous and potentially life-threatening within minutes. Rapid reductions in visibility and snow-covered roads are expected.\n\n* ADDITIONAL DETAILS...At 7:15 PM EST, a snow squall was located over Detroit, moving east at 35 mph.",
+    "instruction": "Slow down immediately and turn on headlights. Leave extra space between vehicles. Avoid sudden braking or acceleration. If possible, delay travel until the squall passes.",
+    "response": "Execute",
+    "parameters": {
+      "AWIPSidentifier": [
+        "SQWDTX"
+      ],
+      "WMOidentifier": [
+        "WWUS73 KDTX 120015"
+      ],
+      "NWSheadline": [
+        "SNOW SQUALL WARNING IN EFFECT UNTIL 8 PM EST THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.NEW.KDTX.SQ.W.0001.260212T0015Z-260212T0100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-02-11T20:00:00-05:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SQW"
+      ],
+      "NationalWeatherService": [
+        "SQW"
+      ]
     }
-  ],
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "id": "urn:oid:2.49.0.1.840.0.KLOT.TO.A.0001.260520",
-      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.KLOT.TO.A.0001.260520",
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.KLOT.TO.A.0001.260520",
-        "areaDesc": "Central Cook County, IL",
-        "geocode": {
-          "UGC": ["ILC031"]
-        },
-        "affectedZones": [],
-        "references": [],
-        "sent": "2026-05-20T23:44:00Z",
-        "effective": "2026-05-20T23:44:00Z",
-        "onset": "2026-05-20T23:44:00Z",
-        "expires": "2026-05-21T00:30:00Z",
-        "ends": null,
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Likely",
-        "urgency": "Expected",
-        "event": "Tornado Watch",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Chicago IL",
-        "headline": "Tornado Watch issued May 20 at 6:44PM CDT until May 20 at 7:30PM CDT by NWS Chicago IL",
-        "description": "Conditions are favorable for the development of tornadoes in and close to the watch area.\n\n* WHAT...Tornadoes possible.\n\n* WHERE...Central Cook County, Illinois.\n\n* WHEN...Until 7:30 PM CDT.\n\n* IMPACTS...Tornadoes can cause injury and property damage.",
-        "instruction": "Review your tornado safety plan, stay tuned to local weather updates, and be prepared to take action if a warning is issued.",
-        "response": "Monitor",
-        "parameters": {
-          "AWIPSidentifier": ["TORLOT"],
-          "WMOidentifier": ["WWUS30 KLOT 202344"],
-          "NWSheadline": ["Tornado Watch in effect until 7:30 PM CDT"],
-          "BLOCKCHANNEL": ["EAS","NWEM","CMAS"],
-          "EAS-ORG": ["WXR"],
-          "VTEC": ["/O.NEW.KLOT.TO.A.0001.260520T2344Z-260521T0030Z/"]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": ["TOA"],
-          "NationalWeatherService": ["TOA"]
-        }
-      }
-    }
-  ]
+  }
 }
