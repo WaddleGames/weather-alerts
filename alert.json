@@ -1,97 +1,155 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.554f0a414a24de19c59667c98172082f69a002be.001.1",
-      "type": "Feature",
-      "geometry": {
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d235d0fa8f5aa56067bea58c65906ad8275381e0.001.1",
+    "type": "Feature",
+    "geometry": {
         "type": "Polygon",
         "coordinates": [
-          [
-            [-83.12, 42.25],
-            [-82.95, 42.25],
-            [-82.95, 42.40],
-            [-83.12, 42.40],
-            [-83.12, 42.25]
-          ]
+            [
+                [
+                    -83.42,
+                    30.29
+                ],
+                [
+                    -83.51,
+                    30.38
+                ],
+                [
+                    -83.26,
+                    30.6
+                ],
+                [
+                    -83.26,
+                    30.55
+                ],
+                [
+                    -83.24,
+                    30.52
+                ],
+                [
+                    -83.24,
+                    30.47
+                ],
+                [
+                    -83.22,
+                    30.46
+                ],
+                [
+                    -83.22,
+                    30.42
+                ],
+                [
+                    -83.21,
+                    30.41
+                ],
+                [
+                    -83.19,
+                    30.41
+                ],
+                [
+                    -83.17,
+                    30.39
+                ],
+                [
+                    -83.42,
+                    30.29
+                ]
+            ]
         ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.554f0a414a24de19c59667c98172082f69a002be.001.1",
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d235d0fa8f5aa56067bea58c65906ad8275381e0.001.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.a1b2c3d4e5f678901234567890abcdef12345678.001.1",
-        "areaDesc": "Wayne County, MI; Oakland County, MI",
+        "id": "urn:oid:2.49.0.1.840.0.d235d0fa8f5aa56067bea58c65906ad8275381e0.001.1",
+        "areaDesc": "Madison, FL",
         "geocode": {
-          "SAME": [
-            "026163",
-            "026125"
-          ],
-          "UGC": [
-            "MIC163",
-            "MIC125"
-          ]
+            "SAME": [
+                "012079"
+            ],
+            "UGC": [
+                "FLC079"
+            ]
         },
         "affectedZones": [
-          "https://api.weather.gov/zones/county/MIC163",
-          "https://api.weather.gov/zones/county/MIC125"
+            "https://api.weather.gov/zones/county/FLC079"
         ],
         "references": [],
-        "sent": "2026-02-11T19:30:00-05:00",
-        "effective": "2026-02-11T19:30:00-05:00",
-        "onset": "2026-02-11T19:30:00-05:00",
-        "expires": "2026-02-11T20:15:00-05:00",
-        "ends": "2026-02-11T20:15:00-05:00",
+        "sent": "2026-02-15T14:18:00-05:00",
+        "effective": "2026-02-15T14:18:00-05:00",
+        "onset": "2026-02-15T14:18:00-05:00",
+        "expires": "2026-02-15T14:45:00-05:00",
+        "ends": "2026-02-15T14:45:00-05:00",
         "status": "Actual",
         "messageType": "Alert",
         "category": "Met",
         "severity": "Severe",
         "certainty": "Observed",
         "urgency": "Immediate",
-        "event": "Snow Squall Warning",
+        "event": "Severe Thunderstorm Warning",
         "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Detroit/Pontiac MI",
-        "headline": "Snow Squall Warning issued February 11 at 7:30PM EST until February 11 at 8:15PM EST by NWS Detroit/Pontiac MI",
-        "description": "At 7:30 PM EST, a dangerous snow squall was located along a line extending from Pontiac to downtown Detroit, moving east at 40 mph.\n\nHAZARD...Intense bursts of heavy snow and wind gusts to 45 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Rapidly changing visibility and snow covered roads will lead to dangerous travel conditions.",
-        "instruction": "Slow down and allow extra time to reach your destination. Rapid visibility reductions may occur. Consider delaying travel until the squall passes.",
-        "response": "Execute",
+        "senderName": "NWS Tallahassee FL",
+        "headline": "Severe Thunderstorm Warning issued February 15 at 2:18PM EST until February 15 at 2:45PM EST by NWS Tallahassee FL",
+        "description": "SVRTAE\n\nThe National Weather Service in Tallahassee has issued a\n\n* Severe Thunderstorm Warning for...\nEastern Madison County in Big Bend Florida...\n\n* Until 245 PM EST.\n\n* At 218 PM EST, a severe thunderstorm was located near Madison,\nmoving northeast at 55 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nMadison, Lee, and Hopewell.",
+        "instruction": "Remain alert for a possible tornado! Tornadoes can develop quickly\nfrom severe thunderstorms. If you spot a tornado go at once into the\nbasement or small central room in a sturdy structure.\n\nFor your protection move to an interior room on the lowest floor of a\nbuilding.\n\nA Tornado Watch remains in effect until 400 PM EST for Big Bend\nFlorida.",
+        "response": "Shelter",
         "parameters": {
-          "AWIPSidentifier": [
-            "SQWDTX"
-          ],
-          "WMOidentifier": [
-            "WWUS53 KDTX 120030"
-          ],
-          "NWSheadline": [
-            "SNOW SQUALL WARNING IN EFFECT UNTIL 815 PM EST"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KDTX.SQ.W.0001.260212T0030Z-260212T0115Z/"
-          ],
-          "eventEndingTime": [
-            "2026-02-11T20:15:00-05:00"
-          ]
+            "AWIPSidentifier": [
+                "SVRTAE"
+            ],
+            "WMOidentifier": [
+                "WUUS52 KTAE 151918"
+            ],
+            "eventMotionDescription": [
+                "2026-02-15T19:18:00-00:00...storm...231DEG...49KT...30.38,-83.39"
+            ],
+            "windThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxWindGust": [
+                "60 MPH"
+            ],
+            "hailThreat": [
+                "RADAR INDICATED"
+            ],
+            "maxHailSize": [
+                "Up to .75"
+            ],
+            "tornadoDetection": [
+                "POSSIBLE"
+            ],
+            "BLOCKCHANNEL": [
+                "EAS",
+                "NWEM",
+                "CMAS"
+            ],
+            "EAS-ORG": [
+                "WXR"
+            ],
+            "VTEC": [
+                "/O.NEW.KTAE.SV.W.0024.260215T1918Z-260215T1945Z/"
+            ],
+            "eventEndingTime": [
+                "2026-02-15T14:45:00-05:00"
+            ]
         },
         "scope": "Public",
         "code": "IPAWSv1.0",
         "language": "en-US",
         "web": "http://www.weather.gov",
         "eventCode": {
-          "SAME": [
-            "SQW"
-          ],
-          "NationalWeatherService": [
-            "SQW"
-          ]
+            "SAME": [
+                "SVR"
+            ],
+            "NationalWeatherService": [
+                "SVW"
+            ]
         }
-      }
     }
-  ]
 }
