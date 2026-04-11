@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -17,9 +17,9 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
         "areaDesc": "Cook County, IL",
         "geocode": {
           "SAME": [
@@ -41,25 +41,25 @@
         "status": "Actual",
         "messageType": "Alert",
         "category": "Safety",
-        "severity": "Severe",
+        "severity": "Extreme",
         "certainty": "Observed",
         "urgency": "Immediate",
-        "event": "Local Area Emergency",
+        "event": "Civil Danger Warning",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
-        "headline": "Local Area Emergency issued April 11 at 1:00PM CDT until April 12 at 4:15AM CDT by NWS Chicago IL",
-        "description": "...Local Area Emergency affecting the Neighborhood of Avondale...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nSuspicious person reported driving around the neighborhood of Avondale.\nMay be armed and dangerous. Do not approach suspicious vehicles or persons.\nThe suspect was driving north on Western Avenue near Diversey and Elston Avenue at 1255PM.\nIf you see a red sedan with tinted windows with Illinois license plate E C 3 5 4 1 9,\ncall 9 1 1 immediately.\nTEST MESSAGE",
-        "instruction": "Avoid the area and do not approach the suspect. Contact law enforcement if observed.",
+        "headline": "Civil Danger Warning issued April 11 at 1:00PM CDT until April 12 at 4:15AM CDT by NWS Chicago IL",
+        "description": "...Moth Man is on the loose...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nMoth Man was spotted in the neighborhood of Avondale around noon today. He is reportedly attacking people and yelling at them and causing a disturbance. Police are attempting to contain him.\nIf you see Moth Man, call 9 1 1 immediately. Do not approach the man.\nStay tuned to local media outlets, radio stations, or weather radio for more information on this developing situation.\nTEST MESSAGE\nThis is an extremely dangerous situation. Take it seriously.",
+        "instruction": "Do not approach. Stay indoors and contact law enforcement immediately if the suspect is seen.",
         "response": "Execute",
         "parameters": {
           "AWIPSidentifier": [
-            "LAELOT"
+            "CDWLOT"
           ],
           "WMOidentifier": [
             "WOUS43 KLOT 291310"
           ],
           "NWSheadline": [
-            "LOCAL AREA EMERGENCY FOR COOK COUNTY"
+            "CIVIL DANGER WARNING FOR COOK COUNTY"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -70,7 +70,7 @@
             "CIV"
           ],
           "VTEC": [
-            "/O.NEW.KLOT.LA.E.0001.260411T1800Z-260412T0915Z/"
+            "/O.NEW.KLOT.CD.W.0001.260411T1800Z-260412T0915Z/"
           ],
           "eventEndingTime": [
             "2026-04-12T04:15:00-05:00"
@@ -82,10 +82,10 @@
         "web": "http://www.weather.gov",
         "eventCode": {
           "SAME": [
-            "LAE"
+            "CDW"
           ],
           "NationalWeatherService": [
-            "LAE"
+            "CDW"
           ]
         }
       }
