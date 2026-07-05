@@ -1,104 +1,84 @@
 {
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b87f88d6b3b3b6f9a4d7d1b9e6a4f22034c9d6a.001.1",
+      "id": "urn:oid:2.49.0.1.840.0.SIMULATED.KLOT.FFW.0034.260704",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-87.55, 41.77],
-            [-87.52, 41.75],
-            [-87.51, 41.73],
-            [-87.51, 41.70],
-            [-87.52, 41.71],
-            [-87.53, 41.47],
-            [-87.65, 41.47],
-            [-87.65, 41.55],
-            [-87.91, 41.63],
-            [-87.91, 41.64],
-            [-88.03, 41.64],
-            [-88.03, 41.69],
-            [-87.97, 41.69],
-            [-87.92, 41.71],
-            [-87.92, 41.78],
-            [-87.57, 41.81],
-            [-87.55, 41.77]
+            [-88.0, 42.0],
+            [-87.5, 42.0],
+            [-87.5, 41.5],
+            [-88.0, 41.5],
+            [-88.0, 42.0]
           ]
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b87f88d6b3b3b6f9a4d7d1b9e6a4f22034c9d6a.001.1",
+        "@id": "https://api.weather.gov/alerts/SIMULATED.KLOT.FFW.0034",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.9b87f88d6b3b3b6f9a4d7d1b9e6a4f22034c9d6a.001.1",
+        "id": "SIMULATED.KLOT.FFW.0034",
+
         "areaDesc": "Southeastern Cook County, IL",
         "geocode": {
-          "SAME": [
-            "017031"
-          ],
-          "UGC": [
-            "ILC031"
-          ]
+          "SAME": ["017031"],
+          "UGC": ["ILC031"]
         },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/ILC031"
-        ],
-        "references": [],
-        "sent": "2026-07-04T17:09:00-05:00",
-        "effective": "2026-07-04T17:09:00-05:00",
-        "onset": "2026-07-04T17:09:00-05:00",
-        "expires": "2026-07-04T22:00:00-05:00",
-        "ends": "2026-07-04T22:00:00-05:00",
+        "affectedZones": [],
+
+        "sent": "2026-07-04T22:09:00-05:00",
+        "effective": "2026-07-04T22:09:00-05:00",
+        "onset": "2026-07-04T22:09:00-05:00",
+        "expires": "2026-07-05T03:00:00-05:00",
+        "ends": "2026-07-05T03:00:00-05:00",
+
         "status": "Actual",
         "messageType": "Alert",
         "category": "Met",
         "severity": "Severe",
         "certainty": "Observed",
         "urgency": "Immediate",
+
         "event": "Flash Flood Warning",
+
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
+
         "headline": "Flash Flood Warning issued July 4 at 5:09PM CDT until July 4 at 10:00PM CDT by NWS Chicago IL",
-        "description": "* WHAT...Significant flash flooding.\n\n* WHERE...Southeastern Cook County in northeastern Illinois.\n\n* WHEN...Until 10:00 PM CDT.\n\n* IMPACTS...Rapid-onset, significant flooding of creeks, streams, drainage ditches, low-lying areas, and poor drainage areas. Widespread street and underpass flooding. Possible flooding of structures. Possible flooding of highways.\n\n* ADDITIONAL DETAILS...\n- At 5:09 PM CDT, Doppler radar and automated rain gauges indicated thunderstorms producing rainfall rates up to 3 inches per hour over much of the warned area. Between 2 and 3 inches of rain have fallen in portions of the warned area. Flash flooding is already occurring and significant flash flooding is expected to begin shortly. According to reports, sections of Interstate 94 are closed through parts of the south side of Chicago.\n- HAZARD...Significant flash flooding.\n- SOURCE...Radar and automated gauges.\n- EXPECTED RAINFALL RATE...3 inches in 1 hour.\n\n* Some locations that will experience flash flooding include...\nOak Lawn, Calumet City, Chicago Heights, Roseland, Chicago Lawn, Midway Airport, Englewood, South Shore, Burbank, Lansing, Oak Forest, Harvey, Homer Glen, Blue Island and Dolton.",
+
+        "description": "FFWLOT\n\nThe National Weather Service in Chicago has issued a\n\n* Flash Flood Warning for...\nSoutheastern Cook County in northeastern Illinois...\n\n* Until 1000 PM CDT.\n\n* At 509 PM CDT, Doppler radar and automated rain gauges indicated thunderstorms producing rainfall rates up to 3 inches per hour over much of the warned area. Between 2 and 3 inches of rain have fallen in portions of the warned area. Flash flooding is already occurring and significant flash flooding is expected to begin shortly. According to reports, sections of Interstate 94 are closed through parts of the south side of Chicago.\n\nHAZARD...Significant flash flooding.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Rapid-onset, significant flooding of creeks, streams, drainage ditches, low-lying areas, and poor drainage areas. Widespread street and underpass flooding. Possible flooding of structures. Possible flooding of highways.",
+
         "instruction": "A Flash Flood Warning means rapid-onset flooding is imminent or may already be occurring. Persons along creeks, drainage ditches, and other waterways should take immediate precautions to protect life and property.\n\nTurn around, don't drown when encountering flooded roads. Most flood deaths occur in vehicles.",
+
         "response": "Avoid",
+
         "parameters": {
-          "AWIPSidentifier": [
-            "FFWLOT"
-          ],
-          "WMOidentifier": [
-            "WGUS53 KLOT 042209"
-          ],
-          "NWSheadline": [
-            "FLASH FLOOD WARNING IN EFFECT UNTIL 10 PM CDT THIS EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KLOT.FF.W.0034.260704T2209Z-260705T0300Z/"
-          ],
-          "eventEndingTime": [
-            "2026-07-04T22:00:00-05:00"
-          ]
+          "AWIPSidentifier": ["FFWLOT"],
+          "WMOidentifier": ["WGUS53 KLOT 042209"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "EAS-ORG": ["WXR"],
+          "VTEC": ["/O.NEW.KLOT.FF.W.0034.260704T2209Z-260705T0300Z/"],
+          "flashFloodDetection": ["RADAR AND GAUGE INDICATED"]
         },
+
         "scope": "Public",
         "code": "IPAWSv1.0",
         "language": "en-US",
         "web": "http://www.weather.gov",
+
         "eventCode": {
-          "SAME": [
-            "FFW"
-          ],
-          "NationalWeatherService": [
-            "FFW"
-          ]
+          "SAME": ["FFW"],
+          "NationalWeatherService": ["FFW"]
         }
       }
     }
